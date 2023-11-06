@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.tabs button {
+	border: 1px solid black;
+	border-radius: .35rem .35rem 0 0;
+	font-weight: bold;
+}
+
+.form-frame {
+	margin-top: -1px;
+	padding: 0 1rem;
+	border: 1px solid black;
+	border-radius: 0 .35rem .35rem .35rem;
+	padding: 1rem;
+}
+
+.active {
+	background: steelblue;
+	color: #fff;
+}
+
+.form-frame small {
+	color: grey;
+}
+
+.form-frame label {
+	display: block;
+	padding: 0 0 .25rem .25rem;
+}
+
+.form-frame input, .form-frame textarea, .form-frame button {
+	border-radius: .3rem;
+}
+
+.form-frame input, .form-frame textarea {
+	width: 100%;
+	border: 1px solid red;
+	border-bottom: 3px solid red;
+	background-color: rgb(255, 230, 230);
+}
+
+.form-frame textarea {
+	resize: vertical;
+	height: 4.5rem;
+}
+
+.form-frame button {
+	background-color: steelblue;
+	padding: .5rem 1rem;
+	border-radius: .3rem;
+	color: white;
+	cursor: pointer;
+}
+
+.form-frame input:valid, .form-frame textarea:valid {
+	border: 1px solid green;
+	border-bottom: 3px solid green;
+	background-color: rgb(232, 240, 254);
+}
+
+form:invalid button {
+	background-image: linear-gradient(rgb(172, 172, 172), rgb(76, 76, 76));
+	pointer-events: none;
+}
+
+.form-frame .feedback, .form-frame .error {
+	text-align: center;
+	padding: 1rem;
+	border-radius: .3rem;
+}
+
+.form-frame .feedback {
+	background-color: #b3f5a9;
+}
+
+.form-frame .error {
+	background-color: #f5a9a9;
+}

@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/main/java/control/HomePage.java=UTF-8
+encoding//src/main/java/model/Item.java=UTF-8
+encoding//src/main/java/model/Owner.java=UTF-8
+encoding//src/main/java/model/Page.java=UTF-8
+encoding//src/main/java/model/SingleItem.java=UTF-8
+encoding//src/main/java/model/SingleOwner.java=UTF-8
+encoding//src/main/java/tools/DbConnect.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/footer.jsp=UTF-8
+encoding//src/main/webapp/header.jsp=UTF-8
+encoding//src/main/webapp/home.jsp=UTF-8
+encoding//src/main/webapp/model_to_new_pages.jsp=UTF-8
+encoding//src/main/webapp/new.jsp=UTF-8
+encoding/<project>=UTF-8
